@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:29092
+word:
+  sending:
+    method: feign # kafka or feign method
+    timeout: 100000
